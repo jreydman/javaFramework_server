@@ -1,2 +1,2 @@
 # javaFramework_server
-java, mini framework for servers
+java, mini framework for servers!
