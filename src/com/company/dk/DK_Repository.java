@@ -49,7 +49,7 @@ public class DK_Repository implements I_Repository {
         }); commaReplacer(queryLine);
         queryLine.append(") VALUES (");
         args.forEach((key,value)->{
-            queryLine.append(String.format("\"%b\",",key));
+            queryLine.append(String.format("\"%b\",",value));
         }); commaReplacer(queryLine);
         queryLine.append(");");
         // EXECUTE REQUEST AND GET RESULT
